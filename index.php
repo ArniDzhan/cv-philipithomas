@@ -54,7 +54,7 @@ $about = current($oMySQL->Select('about'));
                         <div class="nav-collapse collapse pull-right">
                             <ul class="nav">
                                 <li><a href="<?php echo $about['web']; ?>" target="_blank>">Homepage</a></li>
-                                <li><a href="/cv.doc">Download .doc</a></li>          
+                                <li><a href="cv.doc">Download .doc</a></li>          
                             </ul>
                         </div>
                     </div>
